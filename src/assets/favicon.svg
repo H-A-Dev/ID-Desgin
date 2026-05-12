@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" role="img">
+  <title>Royal Horizon</title>
+  <rect width="32" height="32" rx="6" fill="#6B4FB8"/>
+  <path d="M5 22 Q16 17.5 27 22" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="16" cy="17" r="4" fill="#FFFFFF"/>
+</svg>
