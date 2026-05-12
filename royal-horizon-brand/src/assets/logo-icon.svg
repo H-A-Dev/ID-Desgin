@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Royal Horizon">
+  <title>Royal Horizon — Icon</title>
+  <desc>Simplified mark: rising sun above a curved horizon line. Uses currentColor so it inherits the parent text color.</desc>
+  <path d="M8 44 Q32 35 56 44" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="32" cy="34" r="8" fill="currentColor"/>
+</svg>

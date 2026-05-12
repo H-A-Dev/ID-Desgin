@@ -1,0 +1,133 @@
+/* =========================================================
+   Royal Horizon — Design Tokens
+   جميع متغيرات النظام: الألوان، الخطوط، المسافات، الزوايا
+   ========================================================= */
+
+:root {
+  /* ---------- اللون الأساسي: السعودي اللافندر ---------- */
+  --rh-lavender-50:  #F7F4FC;   /* خلفية صفحة */
+  --rh-lavender-100: #EDE7F8;   /* خلفية سطح ناعمة، hover */
+  --rh-lavender-200: #D6C8EE;   /* فواصل، تعبئة فاتحة */
+  --rh-lavender-300: #B0A0DC;   /* عناصر ثانوية */
+  --rh-lavender-400: #9580CC;   /* رسوم توضيحية */
+  --rh-lavender-500: #7C5FCC;   /* مخططات ورسوم */
+  --rh-lavender-600: #6B4FB8;   /* اللون الأساسي للبراند */
+  --rh-lavender-700: #5A3FA0;   /* hover/active */
+  --rh-lavender-800: #3D2A6B;   /* عناوين على خلفية فاتحة */
+  --rh-lavender-900: #2D1E5C;   /* خلفية الوضع الداكن */
+
+  /* ---------- ألوان دافئة سعودية مساندة ---------- */
+  --rh-cream:        #F8F3EA;   /* بيج رملي محايد */
+  --rh-sand:         #E8DCC4;   /* فواصل دافئة */
+  --rh-bronze:       #B07A3D;   /* نخيل، CTA */
+  --rh-bronze-dark:  #8B5E2A;   /* hover للبرونزي */
+  --rh-sage:         #7A9485;   /* أخضر واحة */
+
+  /* ---------- محايدات + UI ---------- */
+  --rh-ink:          #1B1530;   /* نص أساسي */
+  --rh-slate:        #4A4458;   /* نص ثانوي */
+  --rh-mist:         #DCD5E8;   /* حدود فاتحة */
+  --rh-fog:          #F0EDF5;   /* خلفية بطاقة */
+  --rh-white:        #FFFFFF;
+  --rh-black:        #0A0618;
+
+  /* ---------- ألوان دلالية (نجاح، تحذير، خطأ) ---------- */
+  --rh-success:      #3B8B6B;
+  --rh-success-bg:   #E4F2EB;
+  --rh-warning:      #C99544;
+  --rh-warning-bg:   #FAF0DE;
+  --rh-error:        #C04B5A;
+  --rh-error-bg:     #F8E4E6;
+  --rh-info:         #4A6BB8;
+  --rh-info-bg:      #E3E8F5;
+
+  /* ---------- الخطوط ---------- */
+  --rh-font-ar:      'Tajawal', system-ui, -apple-system, sans-serif;
+  --rh-font-en:      'DM Sans', system-ui, -apple-system, sans-serif;
+  --rh-font-display: 'Fraunces', 'Tajawal', Georgia, serif;
+  --rh-font-mono:    'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+
+  /* ---------- أحجام النص ---------- */
+  --rh-text-xs:      12px;
+  --rh-text-sm:      14px;
+  --rh-text-base:    16px;
+  --rh-text-lg:      18px;
+  --rh-text-xl:      22px;
+  --rh-text-2xl:     28px;
+  --rh-text-3xl:     36px;
+  --rh-text-4xl:     48px;
+  --rh-text-5xl:     64px;
+
+  /* ---------- الزوايا ---------- */
+  --rh-radius-sm:    6px;
+  --rh-radius-md:    10px;
+  --rh-radius-lg:    16px;
+  --rh-radius-xl:    24px;
+  --rh-radius-full:  9999px;
+
+  /* ---------- المسافات (سلم 4px) ---------- */
+  --rh-space-1:      4px;
+  --rh-space-2:      8px;
+  --rh-space-3:      12px;
+  --rh-space-4:      16px;
+  --rh-space-5:      24px;
+  --rh-space-6:      32px;
+  --rh-space-7:      48px;
+  --rh-space-8:      64px;
+  --rh-space-9:      96px;
+
+  /* ---------- ظلال (خفيفة جداً، تكفي للعمق) ---------- */
+  --rh-shadow-sm:    0 1px 2px rgba(45, 30, 92, 0.06);
+  --rh-shadow-md:    0 4px 12px rgba(45, 30, 92, 0.08);
+  --rh-shadow-lg:    0 12px 32px rgba(45, 30, 92, 0.12);
+  --rh-shadow-xl:    0 24px 60px rgba(45, 30, 92, 0.16);
+
+  /* ---------- حركات ---------- */
+  --rh-transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --rh-transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --rh-transition-slow: 400ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ---------- توكنات دلالية مرتبطة بالنظام ---------- */
+  --rh-bg-page:      var(--rh-lavender-50);
+  --rh-bg-surface:   var(--rh-white);
+  --rh-bg-elevated:  var(--rh-white);
+  --rh-bg-warm:      var(--rh-cream);
+  --rh-text-primary: var(--rh-ink);
+  --rh-text-secondary: var(--rh-slate);
+  --rh-text-brand:   var(--rh-lavender-600);
+  --rh-text-heading: var(--rh-lavender-800);
+  --rh-border:       var(--rh-mist);
+  --rh-border-strong: var(--rh-lavender-300);
+}
+
+/* =========================================================
+   الوضع الداكن — يستخدم نفس التوكنات لكن بقيم مختلفة
+   ========================================================= */
+[data-theme="dark"] {
+  --rh-bg-page:      var(--rh-lavender-900);
+  --rh-bg-surface:   #382768;
+  --rh-bg-elevated:  #443078;
+  --rh-bg-warm:      #3a2a5e;
+  --rh-text-primary: #F3EFFB;
+  --rh-text-secondary: #B0A0DC;
+  --rh-text-brand:   #B0A0DC;
+  --rh-text-heading: #E5DCF7;
+  --rh-border:       #4A3580;
+  --rh-border-strong: #6B4FB8;
+}
+
+/* الاستجابة لتفضيل النظام تلقائياً */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --rh-bg-page:      var(--rh-lavender-900);
+    --rh-bg-surface:   #382768;
+    --rh-bg-elevated:  #443078;
+    --rh-bg-warm:      #3a2a5e;
+    --rh-text-primary: #F3EFFB;
+    --rh-text-secondary: #B0A0DC;
+    --rh-text-brand:   #B0A0DC;
+    --rh-text-heading: #E5DCF7;
+    --rh-border:       #4A3580;
+    --rh-border-strong: #6B4FB8;
+  }
+}

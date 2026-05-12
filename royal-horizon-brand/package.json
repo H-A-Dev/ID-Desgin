@@ -1,0 +1,23 @@
+{
+  "name": "royal-horizon-brand",
+  "version": "1.0.0",
+  "description": "Royal Horizon (الأفق الملكي) — هوية بصرية كاملة لشركة سياحة سعودية",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve .",
+    "build:css": "npx tailwindcss -i ./src/styles/main.css -o ./dist/styles.css --minify",
+    "watch:css": "npx tailwindcss -i ./src/styles/main.css -o ./dist/styles.css --watch"
+  },
+  "keywords": [
+    "saudi-arabia",
+    "tourism",
+    "brand",
+    "design-system",
+    "lavender"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
